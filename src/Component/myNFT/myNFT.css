@@ -1,0 +1,314 @@
+.btn_bg {
+  background: #fff854;
+}
+.circle_luckydraw_myNFT {
+  position: absolute;
+  right: -45px;
+  bottom: 23px;
+  animation: circle-animation 1.5s ease infinite;
+}
+.pos-rel {
+  position: relative;
+}
+@media (max-width: 769px) {
+  .circle_luckydraw_myNFT {
+    position: relative;
+    right: -50px;
+    bottom: 15px;
+    width: 30px;
+    animation: circle-animation 1.5s ease infinite;
+  }
+  .button_responsive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.pic-bg-nft {
+  width: 348px;
+  height: 341.01px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.detail_bg {
+  width: 486px;
+  height: 82px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.green_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 136.52%;
+  text-align: center;
+  color: #000000;
+}
+.Point_bg {
+  background-image: url("../Assets/Images/LuckyDraw/Rectangle32.png");
+  background-position: right;
+  background-size: contain;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 136.52%;
+  text-align: right;
+  color: #000000;
+}
+.balance_text {
+  font-family: "RedFive";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 109%;
+  letter-spacing: 0.005em;
+  color: #fff;
+}
+.borderLine {
+  border: 1px solid #000;
+}
+.Textbox {
+  width: 141px;
+  height: 60px;
+  background: #28dbd1;
+  border: 1px solid #000000;
+  box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px #000;
+}
+.inputText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 136.52%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.textBox-2 {
+  width: 328px;
+  height: 67px;
+  background: transparent;
+  border-radius: 6px;
+  border: 1px solid #000000;
+}
+.total_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 136.52%;
+  color: #fff;
+}
+.total_text_1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 136.52%;
+  text-align: right;
+  color: #fff;
+}
+.text_2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.52%;
+  text-align: center;
+  color: #fff;
+}
+.btn_mint_nft {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: 1px solid #000000;
+  color: #000000;
+  width: 182px;
+  height: 45px;
+  background: #fff854;
+  border-radius: 50px;
+}
+.btn_myNft {
+  width: 7rem;
+  height: 30.59px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  background: #28dbd1;
+  border-radius: 50px;
+  box-shadow: 1px 5px 5px;
+}
+@media (max-width: 1024px) {
+  .detail_bg_2 {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .pic-bg {
+    width: 248px;
+    height: 237.01px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+  }
+  .detail_bg {
+    width: 343px;
+    height: 82px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+  .green_text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    text-align: center;
+    color: #000000;
+  }
+  .green_text {
+    padding-top: 5px;
+  }
+}
+.inputForTransfer {
+  width: 322px;
+  height: 60px;
+  background: #ffffff !important;
+  border: 1px solid #000000 !important;
+  box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 6px !important;
+}
+@media (max-width: 1366px) {
+  .pic-bg-nft {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media (max-width: 1280px) {
+  .pic-bg-nft {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 425px) {
+  .inputForTransfer {
+    width: 270px;
+  }
+  .pic-bg-nft {
+    width: 270px;
+    height: 270px;
+  }
+}
+.bgForSuccess {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(
+    270deg,
+    #fff854 0%,
+    rgba(255, 255, 255, 0) 134.6%
+  );
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.page-link,
+.page-link:focus,
+.disabled > .page-link {
+  border: none !important;
+  border-color: none !important;
+  background-color: none !important;
+}
+.page-link:focus {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #000000;
+  outline: 0;
+  box-shadow: none !important;
+}
+.page-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin: 5px;
+  color: #000;
+  font-weight: 500;
+}
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  width: 35px;
+  border-radius: 50px;
+  margin: 5px;
+  color: #000;
+  font-weight: 500;
+}
+.page-item:first-child:focus-visible .page-link {
+  color: #fff;
+  background-color: #a2a2a2;
+}
+.page-item .active {
+  color: #000;
+  background-color: #a2a2a2;
+}
+.active > .page-link {
+  color: #000;
+  background-color: transparent;
+}
+.disabled .page-link {
+  color: #fff !important  ;
+  background-color: #a2a2a2 !important;
+}
+.page-item .arrow {
+  color: #fff !important;
+  background-color: #000;
+}
+.nftImgTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 136.52%;
+  text-align: center;
+  color: #000000;
+}
+.nftImgTransferButton {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+@media (max-width: 425px) {
+  .mynft_responsive {
+    font-size: 25px !important;
+  }
+  .circle_luckydraw_myNFT {
+    display: none;
+  }
+}
+.page-item {
+  display: none !important;
+}
+.page-item2,
+.active {
+  display: block !important;
+}

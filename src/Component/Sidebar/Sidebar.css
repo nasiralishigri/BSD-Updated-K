@@ -1,0 +1,28 @@
+.stakenmsColor1{
+    background-color: #070635 !important;
+    height: 100%;
+  }
+  .staking-btn {
+    background-color: transparent !important;
+    opacity: 1;
+    border-radius: 8px;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #ffffff !important;
+    /* border-bottom: 0.5px solid #AEB2B7 !important; */
+    margin-top: 0 !important;
+}
+.staking-btn-active {
+    background: linear-gradient(92.33deg, #6198F1 0%, #212FDF 100%);
+    box-shadow: 0px 2px 4px rgb(138 146 166 / 30%);
+    border-radius: 4px;
+    color: #ffffff !important;
+    margin-left: -20px;
+    width: 200px;
+    margin-right: -20px !important;
+    padding-top: 0 !important; 
+     padding-bottom: 0 !important
+}
+.sidebar-down-color{
+  background: linear-gradient(213deg,#000,#0401b7)!important;
+}

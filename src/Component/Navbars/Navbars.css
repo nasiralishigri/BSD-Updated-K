@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.navbar-color {
+    background: linear-gradient(180deg, #0c0d1f, #0e0d47) !important;
+    border-bottom: solid 2px #0e0d47 !important;
+}
+
+.mode {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.lang-drop {
+    border: none;
+    padding: 0 !important;
+}
+
+.dropdown-menu {
+    align-items: center;
+    padding: 5px;
+    min-width: 45px;
+    background-color: #FFF;
+}
+
+.dropdown-menu {
+    align-items: center;
+    padding: 5px;
+    min-width: 45px;
+    background-color: #FFF;
+}
+
+.dropdown-menu li {
+    margin: 0px 0;
+}
+
+.dropdown-item img {
+    border: none !important
+}
+
+.dropdown-menu a.hover {
+    background-color: none;
+}
+
+
+.lenkk {
+    display: flex;
+}
+
+.bbbdy {
+    z-index: -10;
+    background: linear-gradient(180deg, rgba(12, 13, 31, 1) 0%, rgba(14, 13, 71, 1) 100%);
+}
+
+.bbbdy h3 {
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.bbbdy h3:hover {
+    color: #28DBD1;
+    border-bottom: 1px solid #28DBD1;
+}
+
+.iicon {
+    font-size: 22px;
+    margin-right: 8px;
+    color: #28DBD1;
+}
+
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: black !important;
+    background: white url(../../Assets/cross.svg) center/1em auto no-repeat;
+    /* border: 0;
+    border-radius: 0.375rem;
+    opacity: .5; */
+}
+
+.offcanvas,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm,
+.offcanvas-xl,
+.offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 190px;
+    --bs-offcanvas-height: 30vh;
+    --bs-offcanvas-padding-x: 1rem;
+    --bs-offcanvas-padding-y: 1rem;
+    --bs-offcanvas-color: ;
+    --bs-offcanvas-bg: #fff;
+    --bs-offcanvas-border-width: 1px;
+    --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+    --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+svg {
+    color: #28DBD1;
+    font-size: 18px;
+}
+
+.both_dev {
+    /* display: flex; */
+    /* position: absolute!important; */
+    /* padding-top: 0; */
+    /* right: 10px; */
+    /* z-index: 1000000; */
+}
+
+
+.gamestart {
+    position: relative;
+    display: block;
+    max-width: 250px;
+    display: none;
+    animation: migstart 1s infinite 3.2s;
+    text-align: center;
+    transition: .2s;
+    box-shadow: 0 0 10px 2px #28dbd1, inset 0 0 10px 2px #28dbd1;
+    text-shadow: 0 0 25px #28dbd1, 0 0 15px #28dbd1, 0 0 3px #F21729;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 19px;
+    white-space: nowrap;
+    z-index: 5;
+    text-transform: uppercase;
+    color: #fff;
+    height: 32px;
+    line-height: 21px;
+    border: 2px solid #fff;
+    padding: 0 10px;
+
+}
+
+.gamestart:hover {
+    box-shadow: 0 0 15px 3px #28dbd1, inset 0 0 15px 3px #28dbd1;
+    text-shadow: 0 0 25px #28dbd1, 0 0 35px #28dbd1, 0 0 15px #28dbd1, 0 0 3px #28dbd1;
+}

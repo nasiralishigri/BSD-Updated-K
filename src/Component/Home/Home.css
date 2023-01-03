@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.landing {
+    background: linear-gradient(296.33deg, #2A3EE1 0%, #6096F1 100%);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+.landing a {
+    background: linear-gradient(293.69deg, #EF165F -2.22%, #FF6D9E 100%) !important;
+    /* margin-top: 20px; */
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Inter-Light';
+    list-style: none;
+    text-decoration: none;
+}
+
+.landing a:hover {
+    background: linear-gradient(294.45deg, #018D98 -0.1%, #01C2CF 99.88%) !important;
+}
+
+.landing-text {
+    padding-top: 100px;
+}
+
+.audit {
+    color: #0F3F62;
+    font-size: 48px;
+    font-weight: 700 !important;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.Fully-p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #626262;
+}
+
+.down-color {
+    background: linear-gradient(213deg, #000, #0401b7) !important;
+}
+
+.reward h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.reward p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.br {
+    /*border-right: 1px solid #CACACA;*/
+    border-left: 1px solid #CACACA;
+}
+
+.platform-detail {
+    padding: 5% 8%;
+}
+
+.platform-detail-color {
+    background: linear-gradient(293.7deg, #3B00C1 -2.22%, #8F5EFF 99.99%) !important;
+    display: flex;
+    align-items: center;
+}
+
+.platform-detail h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: #f8f9fa;
+    font-weight: 700;
+}
+
+.platform-detail h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.platform-detail h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.platform-detail p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.platform-detail img {
+    width: 100%;
+    height: auto;
+}
+
+.platform-detail-color-one {
+    background: linear-gradient(322.35deg, #029CA7 0%, #6096F1 100%);
+}
+
+.footer {
+    padding: 15px 15px;
+    min-height: 50px;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    background: linear-gradient(180deg, #0c0d1f, #0e0d47) !important;
+    border-bottom: solid 2px #0e0d47 !important;
+}
+
+.footer h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter';
+    letter-spacing: 1px;
+}
